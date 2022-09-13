@@ -1,0 +1,13 @@
+body
+{
+    background-color: aquamarine;
+    font-family: Helvetica, sans-serif
+}
+#main-title
+{
+    text-align: center;
+}
+.stuff
+{
+    margin-bottom: 12px;
+}
