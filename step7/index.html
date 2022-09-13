@@ -1,0 +1,26 @@
+<!--Contributing members
+Vivek Govindu
+Will Gibson
+Oliver Finnamore
+Seth Lamay -->
+<html>
+    <body>
+        <input id="name-input" type="text" placeholder="Enter your name" />
+        <button id="my-button">Click Me</button>
+
+        <script>
+        //the code below will create a button we can press while inside of the game
+        var myButton = document.querySelector('#my-button');
+        var nameInput = document.querySelector('#name-input');
+        //this will take in name and assign it to the variable nameInput
+        //the .addEventListener will interract with the program when the button is clicked 
+  myButton.addEventListener('click', function () {
+    if (nameInput.value !== '') {
+        //cheking to make sure the text box is not empty
+        //if it is not empty it will alert the user with a message "Hello" followed by the name
+      alert('Hello ' + nameInput.value);
+              }
+             });
+        </script>
+    </body>
+</html>
